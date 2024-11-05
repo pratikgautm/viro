@@ -3,8 +3,9 @@
 
 name: Viro React NPM publish
 on:
-  release:
-    branches: ["*"]
+  pull_request:
+    branches:
+      - main
 
 jobs:
   publish:
